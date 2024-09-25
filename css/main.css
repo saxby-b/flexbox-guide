@@ -434,26 +434,22 @@ section#align-items-section {
 
 /* flex-wrap */
 section#flex-wrap-section {
-  /* place your code here */
   display: flex;
   justify-content: center;
 }
 
 .flex-wrap-nowrap-parent-container {
-  /* place your code here */
   display: flex;
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
-  /* place your code here */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
-  /* place your code here */
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap-reverse;
@@ -463,52 +459,60 @@ section#flex-wrap-section {
 
 /* align-content */
 section#align-content-section {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 /* Fixed heights have been set in the .wrap-content-parent-container code blocks */
 
 .align-content-center-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-between-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: space-between;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-around-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: space-around;
   flex-wrap: wrap;
 }
 
 .align-content-space-evenly-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-stretch-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: stretch;
   flex-wrap: wrap;
 }
 
 .align-content-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: flex-start;
   flex-wrap: wrap;
 }
 
 .align-content-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  align-content: flex-end;
   flex-wrap: wrap;
 }
 
@@ -516,22 +520,26 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
-/* place your code here */
+display: flex;
+justify-content: center;
 }
 
 .gap-parent-container {
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .row-gap-parent-container {
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 .column-gap-parent-container {
-  /* place your code here */
+  display: flex;
   flex-wrap: wrap;
+  column-gap: 20px;
 }
 
 /* end gap */
